@@ -6,3 +6,5 @@ $ python manage.py runserver
 Learning using [Spaced Repetition](https://e-student.org/spaced-repetition/)
 
 > this is a quote
+
+- [x] This is a list
