@@ -20,7 +20,9 @@ If you don’t know the answer, then you move the card back to the first box.
 The higher the box number, the less frequently you check the flashcards in that box to test your knowledge.
 
 ```
-Note: Flashcards are an excellent tool for learning a new language. In the examples throughout this tutorial, you’ll find translations of English and Spanish words. But the examples are kept minimal on purpose. That way, you can conveniently customize the questions and answers on your cards.
+Note: Flashcards are an excellent tool for learning a new language. In the examples throughout this tutorial, 
+you’ll find translations of English and Spanish words. But the examples are kept minimal on purpose. That way, 
+you can conveniently customize the questions and answers on your cards.
 ```
 
 
