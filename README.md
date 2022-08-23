@@ -56,7 +56,24 @@ activated the virtual environment.
 ```shell
 (venv) $ django-admin startproject flashcard .
 ```
-The startproject creates a list of files along with manage.py.
+The startproject creates a list of files along with manage.py
+
+
+### Update the database
+
+``` shell
+(venv) $ python manage.py makemigrations
+Migrations for 'cards':
+  cards/migrations/0001_initial.py
+    - Create model Card
+
+(venv) $ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, cards, contenttypes, sessions
+Running migrations:
+  Applying cards.0001_initial... OK
+  ...
+```
 
 #### Run the Development server
 ```shell
@@ -65,16 +82,11 @@ $ python manage.py runserver
 By default, the server runs on port 8000 on 127.0.0.1 and is only accessible on your computer. With the server running, 
 you can visit your Django project in your browser by using either http://127.0.0.1:8000 or http://localhost:8000:
 
-
-### Setup flashcard app
-#### Create a app named card
-```shell
-(venv) python manage.py startapp cards
-```
+## Bibliography
+1. Learning using [Spaced Repetition](https://e-student.org/spaced-repetition/) 
+2. More about [Leitner system](https://en.wikipedia.org/wiki/Leitner_system)
+3. Implementation of[ Django flashcard app](https://realpython.com/django-flashcards-app/)
 
 
-Learning using [Spaced Repetition](https://e-student.org/spaced-repetition/)
 
-> this is a quote
-
-- [x] This is a list
+- [x] You have reached the end of the readme.md
