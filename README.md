@@ -66,6 +66,11 @@ By default, the server runs on port 8000 on 127.0.0.1 and is only accessible on 
 you can visit your Django project in your browser by using either http://127.0.0.1:8000 or http://localhost:8000:
 
 
+### Setup flashcard app
+#### Create a app named card
+```shell
+(venv) python manage.py startapp cards
+```
 
 
 Learning using [Spaced Repetition](https://e-student.org/spaced-repetition/)
