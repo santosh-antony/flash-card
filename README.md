@@ -50,7 +50,7 @@ activated the virtual environment.
 
 #### Installing the dependencies
 ``` shell
-(venv) $ python -m pip install django==4.0.4
+(venv) $ python3 -m pip install django==4.0.4
 ```
 #### Initiate Django Project
 ```shell
@@ -59,7 +59,7 @@ activated the virtual environment.
 The startproject creates a list of files along with manage.py
 
 
-### Update the database
+#### Update the database
 
 ``` shell
 (venv) $ python manage.py makemigrations
@@ -82,7 +82,7 @@ $ python manage.py runserver
 By default, the server runs on port 8000 on 127.0.0.1 and is only accessible on your computer. With the server running, 
 you can visit your Django project in your browser by using either http://127.0.0.1:8000 or http://localhost:8000:
 
-## Bibliography
+#### Bibliography
 1. Learning using [Spaced Repetition](https://e-student.org/spaced-repetition/) 
 2. More about [Leitner system](https://en.wikipedia.org/wiki/Leitner_system)
 3. Implementation of[ Django flashcard app](https://realpython.com/django-flashcards-app/)
