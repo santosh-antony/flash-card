@@ -25,10 +25,49 @@ you’ll find translations of English and Spanish words. But the examples are ke
 you can conveniently customize the questions and answers on your cards.
 ```
 
+### Prerequisites
+1. Comfortable working with Command line
+2. Working knowledge of virtual environment, Python, Classess and Pip
 
+### Prepare the Django Project
+
+Under your projects older, create a new directory for flash card project with name 'flash-card' and 
+navigate to that folder.
+
+```shell
+$ mkdir flash-cards
+$ cd flash-cards
 ```
+#### Create Virtual Environment
+```shell
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $
+```
+With the commands shown above, you create and activate a virtual environment named venv by using Python’s built-in
+venv module. The parentheses (()) surrounding venv in front of the prompt indicate that you’ve successfully 
+activated the virtual environment.
+
+#### Installing the dependencies
+``` shell
+(venv) $ python -m pip install django==4.0.4
+```
+#### Initiate Django Project
+```shell
+(venv) $ django-admin startproject flashcard .
+```
+The startproject creates a list of files along with manage.py.
+
+#### Run the Development server
+```shell
 $ python manage.py runserver
 ```
+By default, the server runs on port 8000 on 127.0.0.1 and is only accessible on your computer. With the server running, 
+you can visit your Django project in your browser by using either http://127.0.0.1:8000 or http://localhost:8000:
+
+
+
+
 Learning using [Spaced Repetition](https://e-student.org/spaced-repetition/)
 
 > this is a quote
